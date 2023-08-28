@@ -30,12 +30,12 @@ h1{
           justify-content: center;
 }
 
-.col{
+.col {
   width:  100%;
-  margin-left: 1.3em;
-  margin-right: 1.3em;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 2.4em;
+  margin-bottom: 2.4em;
   cursor: pointer;
 }
 
@@ -49,8 +49,8 @@ h1{
 .front,
 .back{
   background-size: cover;
-  box-shadow: 0 15px 8px 0 rgba(0,0,0,0.30);
-  border-radius: 10px;
+  box-shadow: 0 35px 10px 0 rgba(0,0,0,0.30);
+  border-radius: 30px;
 	background-position: center;
 	-webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
 	transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -60,9 +60,9 @@ h1{
 	-webkit-backface-visibility: hidden;
 	        backface-visibility: hidden;
 	text-align: center;
-	min-height: 280px;
+	min-height: 500px;
 	height: auto;
-	border-radius: 10px;
+	border-radius: 30px;
 	color: #fff;
 	font-size: 2rem;
 }
@@ -88,7 +88,7 @@ h1{
     background-color: #000;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 .container:hover .front,
 .container:hover .back{
